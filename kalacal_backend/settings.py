@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'django_filters',  # Adicionado para resolver o erro TemplateDoesNotExist
     'casos',
     'kalacal_calculator',  # Novo app para cálculos de probabilidade de morte
 ]
